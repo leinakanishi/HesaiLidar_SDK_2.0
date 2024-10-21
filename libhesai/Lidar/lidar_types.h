@@ -111,7 +111,7 @@ typedef struct LidarPointXYZIRT
     float z;             
     float intensity;  
     uint16_t ring;
-    double timestamp;  
+    double time;  
 } LidarPointXYZIRT;
 
 typedef struct LidarPointXYZICRT
